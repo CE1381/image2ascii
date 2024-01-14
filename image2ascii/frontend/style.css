@@ -35,15 +35,13 @@ body {
 }
 
 
-
-
-.btn1 {             /* checked */
+.btn1 {
   margin: -30px auto;
   padding: 20px 40px;
   font-size: 20px;
   cursor: pointer;
-  border: 1px solid #10e710;
 
+  border: 1px solid #10e710;
 
   background-color: black;
   color: #10e710;
@@ -54,15 +52,14 @@ body {
 }
 
 
-@keyframes Chechmakzan {    /* checked */
+@keyframes Chechmakzan {    
     0% {
       color: transparent;
       text-shadow: none;
     }
 }
 
-
-.btn2 {   /* checked */
+.btn2 {   
   margin: 86px auto 0 auto;
   padding: 20px 40px;
   background-color: #000;
@@ -70,12 +67,12 @@ body {
 
   color: rgb(25, 255, 5);
 
-  display: inline-block;  
+  display: inline-block;    
   position: relative;
   overflow: hidden;
 }
 
-.top-border {   /* checked */
+.top-border {   
   position: absolute;
   width: 200px;
   height: 3px;
@@ -86,7 +83,7 @@ body {
   animation-delay: 0;
 }
 
-.right-border {     /* checked */
+.right-border {     
   position: absolute;
   top: 0;
   right: 0;
@@ -97,7 +94,7 @@ body {
   animation-delay: 0.4s;
 }
 
-.bottom-border {    /* checked */
+.bottom-border {    
   position: absolute;
   width: 200px;
   height: 3px;
@@ -108,7 +105,7 @@ body {
   animation-delay: 1s;
 }
 
-.left-border {    /* checked */
+.left-border {    
   position: absolute;
   bottom: 0;
   left: 0;
@@ -119,7 +116,7 @@ body {
   animation-delay: 1.4s;
 }
 
-@keyframes LTR {    /* checked */
+@keyframes LTR {    
   0% {
       transform: translateX(-200px);
   }
@@ -128,7 +125,7 @@ body {
   }
 }
 
-@keyframes UTD {    /* checked */
+@keyframes UTD {    
   0% {
       transform: translateY(-90px);
   }
@@ -137,7 +134,7 @@ body {
   }
 }
 
-@keyframes RTL {    /* checked */
+@keyframes RTL {   
   0% {
       transform: translateX(200px);
   }
@@ -146,7 +143,7 @@ body {
   }
 }
 
-@keyframes DTU {    /* checked */
+@keyframes DTU {    
   0% {
       transform: translateY(90px);
   }
@@ -154,6 +151,7 @@ body {
       transform: translateY(-50px);
   }
 }
+
 
 .sub {
 
